@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    jdbc-url: jdbc:mysql://dev7api.dubble.at/dubble?useUnicode=yes&characterEncoding=UTF-8&serverTimezone=UTC
+    username: dubble
+    password: Tuk3Resto6_markuTeldo
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+  mail:
+    host: mail.dubble.at
+    username: service@dubble.at
+    password: IYmw79eXQ6Y27S3B
+    sender: noreply@dubble.eu
+
+media-upload:
+  image-path: "/mounted/img"
+  video-path: "/mounted/video"
+  pdf-path: "/mounted/pdf"
+
+web-domain: "https://dev7go.dubble.at"
+cms-domain: "https://dev7cms.dubble.at"
+api-domain: "https://dev7api.dubble.at"
